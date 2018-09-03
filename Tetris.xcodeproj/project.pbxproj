@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8054656213CF4C800F13621 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8054655213CF4C800F13621 /* AppRouter.swift */; };
+		E805465C213D91F100F13621 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805465B213D91F100F13621 /* Block.swift */; };
+		E80FDDFE213B3F50004BC065 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80FDDFD213B3F50004BC065 /* GameViewController.swift */; };
+		E80FDE02213C6BA2004BC065 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80FDE01213C6BA2004BC065 /* GameScene.swift */; };
 		E842E8FB213B3CFB0044076A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842E8FA213B3CFB0044076A /* AppDelegate.swift */; };
-		E842E8FD213B3CFB0044076A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842E8FC213B3CFB0044076A /* ViewController.swift */; };
-		E842E900213B3CFB0044076A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E842E8FE213B3CFB0044076A /* Main.storyboard */; };
+		E842E8FD213B3CFB0044076A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842E8FC213B3CFB0044076A /* HomeViewController.swift */; };
 		E842E902213B3CFC0044076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E842E901213B3CFC0044076A /* Assets.xcassets */; };
-		E842E905213B3CFC0044076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E842E903213B3CFC0044076A /* LaunchScreen.storyboard */; };
 		E842E910213B3CFD0044076A /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842E90F213B3CFD0044076A /* TetrisTests.swift */; };
 		E842E91B213B3CFD0044076A /* TetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842E91A213B3CFD0044076A /* TetrisUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8054655213CF4C800F13621 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		E805465B213D91F100F13621 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		E80FDDFD213B3F50004BC065 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E80FDE01213C6BA2004BC065 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E842E8F7213B3CFB0044076A /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E842E8FA213B3CFB0044076A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E842E8FC213B3CFB0044076A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E842E8FF213B3CFB0044076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E842E8FC213B3CFB0044076A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E842E901213B3CFC0044076A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E842E904213B3CFC0044076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E842E906213B3CFC0044076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E842E90B213B3CFD0044076A /* TetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E842E90F213B3CFD0044076A /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
@@ -98,10 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				E842E8FA213B3CFB0044076A /* AppDelegate.swift */,
-				E842E8FC213B3CFB0044076A /* ViewController.swift */,
-				E842E8FE213B3CFB0044076A /* Main.storyboard */,
+				E8054655213CF4C800F13621 /* AppRouter.swift */,
+				E842E8FC213B3CFB0044076A /* HomeViewController.swift */,
+				E80FDDFD213B3F50004BC065 /* GameViewController.swift */,
+				E80FDE01213C6BA2004BC065 /* GameScene.swift */,
+				E805465B213D91F100F13621 /* Block.swift */,
 				E842E901213B3CFC0044076A /* Assets.xcassets */,
-				E842E903213B3CFC0044076A /* LaunchScreen.storyboard */,
 				E842E906213B3CFC0044076A /* Info.plist */,
 			);
 			path = Tetris;
@@ -229,9 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E842E905213B3CFC0044076A /* LaunchScreen.storyboard in Resources */,
 				E842E902213B3CFC0044076A /* Assets.xcassets in Resources */,
-				E842E900213B3CFB0044076A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E842E8FD213B3CFB0044076A /* ViewController.swift in Sources */,
+				E842E8FD213B3CFB0044076A /* HomeViewController.swift in Sources */,
+				E80FDDFE213B3F50004BC065 /* GameViewController.swift in Sources */,
+				E80FDE02213C6BA2004BC065 /* GameScene.swift in Sources */,
+				E805465C213D91F100F13621 /* Block.swift in Sources */,
+				E8054656213CF4C800F13621 /* AppRouter.swift in Sources */,
 				E842E8FB213B3CFB0044076A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +299,6 @@
 			targetProxy = E842E917213B3CFD0044076A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E842E8FE213B3CFB0044076A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E842E8FF213B3CFB0044076A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E842E903213B3CFC0044076A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E842E904213B3CFC0044076A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E842E91D213B3CFD0044076A /* Debug */ = {
